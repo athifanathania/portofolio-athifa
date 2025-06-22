@@ -72,7 +72,7 @@ function Hero() {
               <button
                 onClick={() =>
                   newTab(
-                    "https://drive.google.com/drive/folders/1BtHeP9AGw41TQE0fLACT27HjFnRzKKzX"
+                    "https://drive.google.com/drive/folders/1T1ViiwpUaCpT-3a-UU5wVI4k9N0ZWREO?usp=sharing"
                   )
                 }
                 className="card relative group lg:w-[180px] md:w-48 sm:h-12 h-12 place-content-center justify-center items-center flex pl-3 pr-3 sm:pr-0 sm:pl-0 pt-2 pb-2 mr-3 text-xl rounded-2xl border-[0.5px] border-slate-100/40 bg-gradient-to-br backdrop-filter backdrop-blur-lg from-gray-800/90 hover:scale-105 hover:bg-slate-300/10"
