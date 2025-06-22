@@ -196,6 +196,15 @@ export const COMMITTEE = [
 
 export const PROJECTS = [
   {
+    title: "DiabetCare: Sistem Pakar Diagnosa Diabetes Melitus",
+    image: "images/diabet.png",
+    description:
+      "DiabetCare is a web-based expert system that helps early diagnosis of Diabetes Mellitus using the Forward Chaining method to analyze symptoms and identify the possible type of diabetes.",
+    technologies: ["Laravel", "Tailwind CSS", "Vue", "MySQL", "Forward Chaining"],
+    category: "Web Development",
+    link: "https://github.com/Muhammadlevi123/Sispak-Diabetes",
+  },
+  {
     title: "Sign Wave: Sign Language Platform",
     image: "images/sign.png",
     description:
@@ -205,7 +214,7 @@ export const PROJECTS = [
     link: "https://github.com/athifanathania/sign-wave",
   },  
   {
-    title: "HMIF Inventory: Equipment Borrowing Website",
+    title: "HMIF Inventory: Website Peminjaman Barang HMIF",
     image: "images/hmif-inventory.png",
     description:
       "Developed a web-based system to facilitate borrowing of HMIF Unsoed’s inventory items.",
@@ -232,7 +241,7 @@ export const PROJECTS = [
     link: "https://github.com/anindyadiva06/Pemrograman-Mobile_Moon-Cycle",
   },
   {
-    title: "Himpunan Mahasiswa Informatika (HMIF)",
+    title: "Himpunan Mahasiswa Informatika (HMIF): Kabinet Gamadhikari",
     image: "images/gama.png",
     description:
       "A web-based platform developed as a final project for Web Design course, designed to showcase the identity, organizational structure, and programs of HMIF UNSOED's Kabinet Gamadhikari.",
@@ -240,6 +249,15 @@ export const PROJECTS = [
     category: "Web Development",
     link: "https://github.com/anindyadiva06/HMIF-Project",
   },  
+  {
+    title: "Sistem Palang Otomatis",
+    image: "images/palang.png",
+    description:
+      "This project develops a NodeMCU-based automatic gate prototype using infrared and ultrasonic sensors, controlled via a local web server with real-time activity logs for secure and efficient campus access.",
+    technologies: ["Embedded Systems", "C++", "HTML"],
+    category: "Embedded System",
+    link: "https://github.com/nabillatsani/ProjekPST",
+  },
 ];
 
 export const CERTIFICATE = [
@@ -265,10 +283,10 @@ export const CERTIFICATE = [
     category: "Work",
   },
   {
-    title: "Belajar Dasar Pemrograman Web",
+    title: "Belajar Dasar Pemrograman JavaScript",
     company: "Dicoding Indonesia",
     year: "2025",
-    image: "images/course-web.jpg",
+    image: "images/course-js.jpg",
     category: "Course",
   },
   {
@@ -283,6 +301,13 @@ export const CERTIFICATE = [
     company: "Dicoding Indonesia",
     year: "2025",
     image: "images/course-sql.jpg",
+    category: "Course",
+  },
+  {
+    title: "Belajar Dasar Pemrograman Web",
+    company: "Dicoding Indonesia",
+    year: "2025",
+    image: "images/course-web.jpg",
     category: "Course",
   },
   {
