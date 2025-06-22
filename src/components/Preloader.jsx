@@ -11,9 +11,8 @@ const Preloader = () => {
   return (
     <div className="preloader">
       <div className="texts-container">
-        <span>Nuansa</span>
-        <span>Syafrie</span>
-        <span>Rahardian</span>
+        <span>Athifa</span>
+        <span>Nathania</span>
       </div>
     </div>
   );
