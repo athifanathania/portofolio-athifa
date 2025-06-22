@@ -95,7 +95,7 @@ function Hero() {
         >
           <img
             src={profilepic}
-            className="w-[200px] lg:w-[300px] md:w-[220px] mt-14 absolute z-[10]"
+            className="w-[220px] lg:w-[285px] md:w-[250px] lg:mt-[65px] md:mt-[33px] mt-[53px] mr-[1px] absolute z-[10]"
             alt="Profile"
           />
           <img
