@@ -290,6 +290,13 @@ export const CERTIFICATE = [
     category: "Course",
   },
   {
+    title: "Belajar Dasar Pemrograman Data Science",
+    company: "Dicoding Indonesia",
+    year: "2025",
+    image: "images/course-data.jpg",
+    category: "Course",
+  },
+  {
     title: "Belajar Dasar Artificial Intelligence (AI)",
     company: "Dicoding Indonesia",
     year: "2025",
