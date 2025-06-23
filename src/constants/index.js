@@ -290,6 +290,13 @@ export const CERTIFICATE = [
     category: "Course",
   },
   {
+    title: "Belajar Dasar Visualisasi Data",
+    company: "Dicoding Indonesia",
+    year: "2025",
+    image: "images/course-visualisasi.jpg",
+    category: "Course",
+  },
+  {
     title: "Belajar Dasar Pemrograman Data Science",
     company: "Dicoding Indonesia",
     year: "2025",
@@ -297,17 +304,17 @@ export const CERTIFICATE = [
     category: "Course",
   },
   {
-    title: "Belajar Dasar Artificial Intelligence (AI)",
-    company: "Dicoding Indonesia",
-    year: "2025",
-    image: "images/course-ai.jpg",
-    category: "Course",
-  },
-  {
     title: "Belajar Dasar Structured Query Language (SQL)",
     company: "Dicoding Indonesia",
     year: "2025",
     image: "images/course-sql.jpg",
+    category: "Course",
+  },
+  {
+    title: "Belajar Dasar Artificial Intelligence (AI)",
+    company: "Dicoding Indonesia",
+    year: "2025",
+    image: "images/course-ai.jpg",
     category: "Course",
   },
   {
