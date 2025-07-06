@@ -196,6 +196,24 @@ export const COMMITTEE = [
 
 export const PROJECTS = [
   {
+    title: "Sign Wave: Sign Language Platform",
+    image: "images/sign.png",
+    description:
+      "A web-based platform designed to support learning and communication using Indonesian Sign Language (BISINDO) through educational and interactive features.",
+    technologies: ["HTML", "Bootstrap", "CSS", "PHP", "Laravel 10"],
+    category: "Web Development",
+    link: "https://github.com/athifanathania/sign-wave",
+  }, 
+  {
+    title: "Spotify User Segmentation with Clustering",
+    image: "images/spotify.png",
+    description:
+      "Analyzed Spotify user behavior using PCA, K-Means clustering (k=6), and association rule mining to uncover listening patterns and genre preferences across user segments.",
+    technologies: ["Python", "Scikit-learn", "Pandas", "Matplotlib", "MLxtend"],
+    category: "Data Science & Machine Learning",
+    link: "https://colab.research.google.com/drive/1jHUQQCo8QIG2tNuKngCHeLzWEIboONDm?usp=sharing",
+  },
+  {
     title: "DiabetCare: Sistem Pakar Diagnosa Diabetes Melitus",
     image: "images/diabet.png",
     description:
@@ -205,14 +223,32 @@ export const PROJECTS = [
     link: "https://github.com/Muhammadlevi123/Sispak-Diabetes",
   },
   {
-    title: "Sign Wave: Sign Language Platform",
-    image: "images/sign.png",
+    title: "Gold Price Prediction with Linear Regression",
+    image: "images/emas.png",
     description:
-      "A web-based platform designed to support learning and communication using Indonesian Sign Language (BISINDO) through educational and interactive features.",
-    technologies: ["HTML", "Bootstrap", "CSS", "PHP", "Laravel 10"],
+      "Built a machine learning model to predict gold prices using Yahoo Finance data. Applied KNN for direction classification and Linear Regression for price forecasting with engineered features like moving averages and volatility.",
+    technologies: ["Python", "Scikit-learn", "Pandas", "Matplotlib"],
+    category: "Data Science & Machine Learning",
+    link: "https://colab.research.google.com/drive/1ixeT7wxCJ6TrN4aDrL4n-Ns_MBKs4OGc?usp=sharing",
+  },
+  {
+    title: "eStore",
+    image: "images/estore.png",
+    description:
+      "Developed an internal purchasing dashboard for PT Mandom Indonesia Tbk using CodeIgniter 3 and SQL Server, enabling efficient admin management of employee product orders.",
+    technologies: ["CodeIgniter 3 (CI3)", "PHP", "SQL Server"],
     category: "Web Development",
-    link: "https://github.com/athifanathania/sign-wave",
-  },  
+    link: "https://drive.google.com/file/d/1MPcbPgaicT50xhGFUiesKpuuX0qO77mO/view?usp=drive_link",
+  },
+  {
+    title: "CO2 Emissions Prediction using Multiple Linear Regression",
+    image: "images/co2.png",
+    description:
+      "Built a regression model to predict CO₂ emissions based on vehicle features. Evaluated multiple feature combinations and found fuel consumption, engine size, and cylinder count as top predictors.",
+    technologies: ["Python", "Scikit-learn", "Pandas", "Matplotlib", "Seaborn"],
+    category: "Data Science & Machine Learning",
+    link: "https://colab.research.google.com/drive/18Yi2JX4CY559GFUv6Cio6pua0VctiFo8?usp=sharing",
+  },
   {
     title: "HMIF Inventory: Website Peminjaman Barang HMIF",
     image: "images/hmif-inventory.png",
@@ -232,6 +268,15 @@ export const PROJECTS = [
     link: "https://github.com/athifanathania/snow_white",
   },  
   {
+    title: "Sentiment Analysis of Indonesian Presidential Election Tweets",
+    image: "images/sentiment.png",
+    description:
+      "Compared Naive Bayes with SMOTE and SVM with hyperparameter tuning to classify sentiments on 2024 Indonesian election tweets. Naive Bayes with SMOTE achieved the highest accuracy.",
+    technologies: ["Python", "SMOTE", "SVM", "Grid Search"],
+    category: "Data Science & Machine Learning",
+    link: "https://drive.google.com/file/d/12RAPkYlF1HTiy5DBG_nSC-Aaoi2ojs2a/view?usp=drive_link",
+  },
+  {
     title: "MoonCycle: Women's Health Tracking App",
     image: "images/moon.png",
     description:
@@ -249,15 +294,7 @@ export const PROJECTS = [
     category: "Web Development",
     link: "https://github.com/anindyadiva06/HMIF-Project",
   },  
-  {
-    title: "Sistem Palang Otomatis",
-    image: "images/palang.png",
-    description:
-      "This project develops a NodeMCU-based automatic gate prototype using infrared and ultrasonic sensors, controlled via a local web server with real-time activity logs for secure and efficient campus access.",
-    technologies: ["Embedded Systems", "C++", "HTML"],
-    category: "Embedded System",
-    link: "https://github.com/nabillatsani/ProjekPST",
-  },
+  
 ];
 
 export const CERTIFICATE = [
@@ -297,7 +334,7 @@ export const CERTIFICATE = [
     category: "Course",
   },
   {
-    title: "Belajar Dasar Pemrograman Data Science",
+    title: "Belajar Dasar Data Science",
     company: "Dicoding Indonesia",
     year: "2025",
     image: "images/course-data.jpg",
@@ -336,7 +373,7 @@ export const CERTIFICATE = [
     company: "Indonesian Professional Certification Authority (BNSP)",
     year: "2025",
     image: "images/komp.jpg",
-    category: "Achievement",
+    category: "Course",
   },
   {
     title: "Staff of Health Research and Development Department",

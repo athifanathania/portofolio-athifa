@@ -22,7 +22,7 @@ const Contact = () => {
           initial={{ opacity: 0, y: -50 }}
           transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: true }}
-          className="md:text-5xl text-4xl font-bold  flex  text-transparent bg-clip-text tracking-wide bg-gradient-to-r from-white p-2 mb-6"
+          className="md:text-5xl text-4xl font-bold  flex  text-transparent bg-clip-text tracking-wide bg-gradient-to-r from-white to-white/30 p-2 mb-6"
         >
           Let's Connect
         </motion.div>

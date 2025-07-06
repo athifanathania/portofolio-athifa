@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Projects = () => {
   const [selectedFilter, setSelectedFilter] = useState(null); // State to hold a single selected filter
   const [filteredItems, setFilteredItems] = useState(PROJECTS);
-  const filters = ["Web Development", "Mobile Development", "Embedded System"];
+  const filters = ["Web Development", "Mobile Development", "Data Science & Machine Learning"];
 
   const handleFilterButtonClick = (selectedCategory) => {
     // Toggle the filter: if it's already selected, set it to null (deselect), otherwise set it as the selected filter

@@ -94,8 +94,8 @@ const Certificates = () => {
             <div className="md:text-5xl text-4xl font-bold md:mt-16 flex justify-center text-transparent bg-clip-text tracking-wide bg-gradient-to-r from-white p-2 ">
               Certifications
             </div>
-            <div className="buttons-container flex justify-center mx-12 gap-3">
-              {filters.map((category, index) => (
+            <div className="buttons-container flex flex-wrap justify-center gap-x-3">
+            {filters.map((category, index) => (
                 <button
                   onClick={() => handleFilterButtonClick(category)}
                   className={`button ${
@@ -116,7 +116,7 @@ const Certificates = () => {
             initial={{ opacity: 0, y: -30 }}
             transition={{ duration: 0.7, delay: 0.5 }}
             viewport={{ once: true }}
-            className="m-8 sm:m-8"
+            className="m-8 sm:m-8 pb-10"
           >
             {filteredItems.length >= 3 ||
             (filteredItems.length > 1 && window.innerWidth < 1024) ? (
@@ -124,7 +124,7 @@ const Certificates = () => {
                 {filteredItems.map((data, index) => (
                   <div
                     key={index}
-                    className="card2 hover:bg-gradient-to-tr hover:from-indigo-600/20 w-full rounded-[36px] sm:h-[480px] h-[400px] bg-gradient-to-b from-black/50 border-[0.5px] border-slate-300/50 backdrop-filter backdrop-blur-4xl flex sm:mb-2 mb-12"
+                    className="card2 hover:bg-gradient-to-tr hover:from-indigo-600/20 w-full rounded-[36px] sm:h-[480px] h-[400px] bg-gradient-to-b from-black/50 border-[0.5px] border-slate-300/50 backdrop-filter backdrop-blur-4xl flex sm:mb-6 mb-24"
                   >
                     <div className="p-4 flex flex-col">
                       <button onClick={() => getData(data.image, data.title)}>
