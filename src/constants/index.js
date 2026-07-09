@@ -3,13 +3,13 @@ import canvalogo from "../assets/canvalogo.png";
 
 
 export const HERO_CONTENT = `
-Turning complexity into clarity — delivering seamless web development with solid back-end logic and optimized data systems.`;
+Informatics graduate with hands-on experience in web development, information systems, and database management. Passionate about building reliable digital solutions that improve business processes.`;
 
 export const sectionIds = [
   "home",
   "about",
-  "experiences",
   "projects",
+  "experiences",
   "certificates",
   "contact",
 ];
@@ -19,15 +19,18 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 export const SKILL = [
   { image: "https://cdn.worldvectorlogo.com/logos/codeigniter.svg", alt: "CodeIgniter" },
   { image: "https://skillicons.dev/icons?i=laravel", alt: "Laravel" },
-  { image: "https://skillicons.dev/icons?i=flutter", alt: "Flutter" },
   { image: "https://skillicons.dev/icons?i=bootstrap", alt: "Bootstrap" },
   { image: "https://skillicons.dev/icons?i=html", alt: "HTML" },
   { image: "https://skillicons.dev/icons?i=css", alt: "CSS" },
   { image: "https://skillicons.dev/icons?i=javascript", alt: "JavaScript" },
   { image: "https://skillicons.dev/icons?i=php", alt: "PHP" },
-  { image: "https://skillicons.dev/icons?i=dart", alt: "Dart" },
+  { image: "https://skillicons.dev/icons?i=java", alt: "Java" },
   { image: "https://skillicons.dev/icons?i=cpp", alt: "C++" },
   { image: "https://skillicons.dev/icons?i=mysql", alt: "MySQL" },
+  {
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg",
+    alt: "SQL Server",
+  },
 ];
 
 export const TOOLS = [
@@ -43,158 +46,105 @@ export const TOOLS = [
 
 export const WORK_EXPERIENCES = [
   {
-    year: "Feb 2025 - June 2025",
-    role: "Coordinator of Operating Systems Laboratory Assistants",
-    company: "Informatics Laboratory Assistant",
+    year: "Aug 2025 - Jun 2026",
+    role: "Full-Stack Developer Intern",
+    company: "PT. Indomatsumoto Press & Dies Industries (Indomobil Group) - Bekasi",
     description: [
-      "Coordinated and guided 6 lab assistants in executing practical sessions effectively.",
-      "Taught and mentored 40 students (across two shifts) in Operating Systems using Windows and Linux, including troubleshooting terminal, command prompt, process, memory, file system, and networking topics.",
-      "Prepared exam questions and assignments, and evaluated student performance to assess their understanding and skills."
+      "Developed and implemented five operational websites used by various company divisions to support internal business processes.",
+      "Collaborated with users to conduct requirements analysis, feature design, development, testing, and system implementation.",
+      "Developed frontend and backend features and integrated databases to support business operations.",
+      "Performed maintenance on implemented applications, resolved bugs and errors reported by users, and developed additional features based on operational requirements."
     ],
-    technologies: ["Linux", "Windows"],
+    technologies: ["Laravel", "PHP", "JavaScript", "MySQL"],
+    logo: "images/imat.jpg",
+  },
+
+  {
+    year: "Sep 2024 - Jun 2025",
+    role: "Database and Operating Systems Laboratory Assistant Coordinator",
+    company: "Informatics Laboratory Assistant - Universitas Jenderal Soedirman",
+    description: [
+      "Coordinated 5–6 laboratory assistants and ensured laboratory activities ran smoothly.",
+      "Taught 40 students per semester in Database and Operating Systems laboratory courses.",
+      "Prepared assignments and examinations and evaluated students' practical work."
+    ],
+    technologies: ["SQL", "MySQL", "Linux", "Windows", "XAMPP"],
     logo: "images/laboratory.png",
   },
-  {
-    year: "Sep 2024 - Dec 2024",
-    role: "Coordinator of Database Laboratory Assistants",
-    company: "Informatics Laboratory Assistant",
-    description: [
-      "Coordinated and directed 5 lab assistants in conducting practical sessions.",
-      "Taught and mentored 40 students (across two shifts) on Database topics using XAMPP and Command Prompt, including database design, SQL queries, and database optimization.",
-      "Prepared exam questions and assignments, and assessed student performance to measure their understanding and skills."
-    ],
-    technologies: ["XAMPP", "SQL", "Command Prompt"],
-    logo: "images/laboratory.png",
-  },  
+
   {
     year: "Jul 2024 - Aug 2024",
     role: "IT Support & Web Developer Intern",
     company: "PT. Mandom Indonesia Tbk. - Jakarta",
     description: [
       "Configured, repaired, and maintained 40 hardware devices at the Head Office.",
-      "Developed and enhanced features of the eStore website for employee-exclusive product purchases using CodeIgniter 3 (CI3).",
-      "Supported the company's IT operations by handling various technical and administrative tasks."
+      "Developed and enhanced eStore website features for employee-exclusive product purchases using CodeIgniter 3 (CI3).",
+      "Supported company IT operations by completing various technical and administrative tasks."
     ],
-    technologies: ["CodeIgniter 3", "PHP", "Networking", "Hardware Support"],
+    technologies: ["CodeIgniter 3", "PHP", "SQL Server", "Hardware Support"],
     logo: "images/mandom.png",
-  },  
-  {
-    year: "Feb 2024 - June 2024",
-    role: "Operating Systems Laboratory Assistant",
-    company: "Informatics Laboratory Assistant",
-    description: [
-      "Taught and mentored 40 students (across two shifts) in Operating Systems using Windows and Linux.",
-      "Provided instruction and troubleshooting on topics including terminal, command prompt, process, memory, file system, and networking.",
-      "Prepared exam questions and assignments, and evaluated student performance to measure their understanding and skills."
-    ],
-    technologies: ["Linux", "Windows"],
-    logo: "images/laboratory.png",
-  },  
-  {
-    year: "Sep 2023 - Dec 2023",
-    role: "Database Laboratory Assistant",
-    company: "Informatics Laboratory Assistant",
-    description: [
-      "Taught and mentored 40 students (across two shifts) in database laboratory sessions using XAMPP and Command Prompt.",
-      "Provided instruction and troubleshooting on database design, SQL queries, and database optimization.",
-      "Prepared exam questions and assignments, and evaluated student performance to measure their understanding and skills."
-    ],
-    technologies: ["XAMPP", "SQL", "Command Prompt"],
-    logo: "images/laboratory.png",
-  }    
-];
-export const ORGANIZATION = [
-  {
-    year: "Mar 2025 - Present",
-    role: "Student Resource Development Division Supervisor",
-    company: "Dewan Pengawas Organisasi (DPO) HMIF Unsoed",
-    description: [
-      "Supervised the successful implementation of 6 planned agendas and work programs, ensuring alignment with the division's vision in student resource development.",
-      "Provided insights and recommendations on student regeneration, soft skill development, and character building to enhance Informatics students' preparedness for organizational roles and the professional world.",
-      "Monitored the execution of activities focusing on improving academic quality, soft skills, and competitiveness of Informatics students."
-    ],
-    logo: "images/hmif.png",
-  },  
-  {
-    year: "Mar 2024 - Mar 2025",
-    role: "Vice Chairman",
-    company: "Himpunan Mahasiswa Informatika (HMIF) Unsoed",
-    description: [
-      "Managed internal organization and supervised 63 board members across 8 divisions.",
-      "Planned and executed 18 work programs and 21 internal agendas, achieving a 'Very Good' rating during the organizational period.",
-      "Formulated organizational policies and established effective coordination and communication to strengthen relationships among board members."
-    ],
-    logo: "images/hmif.png",
-  },  
-  {
-    year: "Mar 2024 - Mar 2025",
-    role: "Staff of Health Research and Development Department",
-    company: "Generasi Baru Indonesia (GENBI) Purwokerto",
-    description: [
-      "Responsible for the 'GenBI Talks About Health' podcast by designing concepts, preparing materials, and coordinating speakers for health education.",
-      "Conducted research and developed health-related materials to raise public awareness.",
-      "Contributed to departmental activities, including health campaigns and sports events for GenBI members."
-    ],
-    logo: "images/genbi.png",
-  },  
-  {
-    year: "Mar 2023 - Mar 2024",
-    role: "Staff of Student Resource Development Division",
-    company: "Himpunan Mahasiswa Informatika (HMIF) Unsoed",
-    description: [
-      "Organized a Public Speaking training program targeting 56 HMIF board members, successfully attended by 53 members.",
-      "Oversaw and developed the human resources of HMIF board members and Informatics students."
-    ],
-    logo: "images/hmif.png",
-  }  
-];
-export const COMMITTEE = [
-  {
-    year: "Oct 2024 - Nov 2024",
-    role: "Chief Executive of the 16th Informatics Anniversary",
-    company: "HMIF Unsoed 2024",
-    description: [
-      "Led and coordinated 73 committee members across 9 divisions, ensuring each division fulfilled its respective duties effectively.",
-      "Designed the event concept consisting of 2 main events and ensured the entire series of events ran as planned.",
-      "Directed the team, established effective communication, and ensured optimal collaboration among all committee members."
-    ],
-    logo: "images/diesnat.png",
-  }, 
-  {
-    year: "Sep 2024 - Oct 2024",
-    role: "Steering Committee of Informatics Championship",
-    company: "HMIF Unsoed 2024",
-    description: [
-      "Provided guidance in the planning and execution of work programs, ensuring activities aligned with the vision and objectives.",
-      "Supervised and evaluated the performance of 63 committee members, ensuring each division carried out its duties effectively.",
-      "Made crucial decisions in resolving issues and provided strategic solutions to ensure the smooth execution of the event."
-    ],
-    logo: "images/ic.png",
   },
+
   {
-    year: "Sep 2023 - Oct 2023",
-    role: "Event Division Coordinator of Informatics Championship",
-    company: "HMIF Unsoed 2023",
+    year: "Sep 2023 - Jun 2024",
+    role: "Database and Operating Systems Laboratory Assistant",
+    company: "Informatics Laboratory Assistant - Universitas Jenderal Soedirman",
     description: [
-      "Designed the event series by defining the event concept, creating the rundown, and assigning tasks for each division.",
-      "Coordinated and supervised 11 division members in organizing competitions for 12 sports and art branches."
+      "Mentored 40 students in Database and Operating Systems laboratory courses.",
+      "Provided guidance on SQL, database design, Linux terminal, process management, memory management, file systems, and networking.",
+      "Assisted in preparing and grading laboratory assignments and examinations."
     ],
-    logo: "images/ic1.png",
-  },
-  {
-    year: "Aug 2023 - Sep 2023",
-    role: "Event Division Staff of Community Service Program",
-    company: "HMIF Unsoed 2023",
-    description: [
-      "Designed the event series by defining the event concept and creating the rundown.",
-      "Served as the Master of Ceremony, leading the event activities with 20+ elementary school students.",
-      "Provided basic teaching to students on Microsoft Office and computer hardware."
-    ],
-    logo: "images/hmif.png",
-  },  
+    technologies: ["SQL", "MySQL", "Linux", "Windows", "XAMPP"],
+    logo: "images/laboratory.png",
+  }
 ];
 
 export const PROJECTS = [
+  {
+    title: "Document Management Control",
+    image: "images/dmc.png",
+    description:
+      "A centralized document management system for storing and managing internal and external company documents. Provides easy document access for employees while giving administrators full control over document organization and permissions.",
+    technologies: ["Laravel 10", "Filament", "JavaScript", "MySQL"],
+    category: "Web Development",
+    link: "https://github.com/athifanathania/dmc-web",
+  },
+  {
+    title: "BOM Explorer & Best Supplier Recommendation",
+    image: "images/bom.png",
+    description:
+      "A centralized platform for visualizing Parent-Child Bill of Materials (BOM), monitoring daily production processes, managing technical specifications, analyzing product weight, and selecting the most suitable supplier based on production requirements.",
+    technologies: ["Laravel 10", "Filament", "JavaScript", "MySQL"],
+    category: "Web Development",
+    link: "https://github.com/athifanathania/bom-web-ta-final",
+  },
+  {
+    title: "Customer Activity System",
+    image: "images/cv.png",
+    description:
+      "An integrated customer visit management system that enables marketing teams to schedule customer visits, monitor sales activities, and generate real-time performance reports for more efficient customer relationship management.",
+    technologies: ["Laravel 10", "Filament", "JavaScript", "MySQL"],
+    category: "Web Development",
+    link: "https://github.com/athifanathania/customer-visit",
+  },
+  {
+    title: "Supplier Report",
+    image: "images/SR.png",
+    description:
+      "A supplier claim management system for reporting NG (Not Good) parts. Features automated email notifications, claim tracking, replacement monitoring, and centralized reporting to accelerate supplier response times.",
+    technologies: ["Laravel 10", "Filament", "JavaScript", "MySQL"],
+    category: "Web Development",
+    link: "https://github.com/athifanathania/ng_report_web",
+  },
+  {
+    title: "HR Recruitment Test",
+    image: "images/hr.png",
+    description:
+      "An online recruitment and psychological assessment platform designed to streamline employee selection. Currently supports Kraepelin Test administration with automated participant management and test execution.",
+    technologies: ["Laravel 10", "Filament", "JavaScript", "MySQL"],
+    category: "Web Development",
+    link: "https://github.com/athifanathania/kraepelin-quiz",
+  },
   {
     title: "Sign Wave: Sign Language Platform",
     image: "images/sign.png",
@@ -295,6 +245,83 @@ export const PROJECTS = [
     link: "https://github.com/anindyadiva06/HMIF-Project",
   },  
   
+];
+
+export const ORGANIZATION = [
+  {
+    year: "Mar 2025 - Dec 2025",
+    role: "Student Resource Development Division Supervisor",
+    company: "Organization Supervisory Board (DPO) HMIF - Universitas Jenderal Soedirman",
+    description: [
+      "Supervised the implementation of student development programs.",
+      "Provided recommendations regarding member regeneration, soft skills development, and student character development."
+    ],
+    logo: "images/hmif.png",
+  },
+  {
+    year: "Mar 2024 - Mar 2025",
+    role: "Vice President",
+    company: "Informatics Student Association (HMIF) - Universitas Jenderal Soedirman",
+    description: [
+      "Managed an organization consisting of 63 members across eight divisions and coordinated 18 work programs and 21 internal agendas.",
+      "Designed organizational policies and established cross-divisional coordination, resulting in an 'Excellent' performance rating."
+    ],
+    logo: "images/hmif.png",
+  },
+  {
+    year: "Mar 2024 - Mar 2025",
+    role: "Health Research & Development Department Staff and Health Division Staff",
+    company: "Generasi Baru Indonesia (GenBI) Purwokerto - Bank Indonesia",
+    description: [
+      "Managed the GenBI Talks About Health podcast and prepared health education materials.",
+      "Contributed to health research, campaigns, and health programs for members and the community."
+    ],
+    logo: "images/genbi.png",
+  },
+  {
+    year: "Mar 2023 - Mar 2024",
+    role: "Student Resource Development Division Staff",
+    company: "Informatics Student Association (HMIF) - Universitas Jenderal Soedirman",
+    description: [
+      "Organized Public Speaking training for HMIF members.",
+      "Supported Informatics student development."
+    ],
+    logo: "images/hmif.png",
+  }
+];
+
+export const COMMITTEE = [
+  {
+    year: "Nov 2024",
+    role: "Chief Organizer",
+    company: "16th Informatics Anniversary - Universitas Jenderal Soedirman",
+    description: [
+      "Led and coordinated 73 committee members from nine divisions.",
+      "Ensured all event activities were carried out according to plan."
+    ],
+    logo: "images/diesnat.png",
+  },
+  {
+    year: "Sep 2023 - Oct 2024",
+    role: "Event Division Coordinator (2023) | Steering Committee (2024)",
+    company: "Informatics Championship - Universitas Jenderal Soedirman",
+    description: [
+      "Participated in planning, coordinating, and evaluating the Informatics Championship.",
+      "Coordinated 11 division members in 2023.",
+      "Supervised 63 committee members and provided strategic direction in 2024."
+    ],
+    logo: "images/ic.png",
+  },
+  {
+    year: "Aug 2023 - Sep 2023",
+    role: "Event Division Staff",
+    company: "HMIF Community Service - Universitas Jenderal Soedirman",
+    description: [
+      "Prepared event activities and served as Master of Ceremony (MC).",
+      "Introduced basic Microsoft Office and computer hardware to elementary school students."
+    ],
+    logo: "images/hmif.png",
+  },
 ];
 
 export const CERTIFICATE = [

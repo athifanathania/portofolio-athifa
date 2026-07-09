@@ -8,7 +8,11 @@ import { motion } from "framer-motion";
 
 function Hero() {
   const [text] = useTypewriter({
-    words: ["Back-End Engineer", "Web Developer", "Data Enthusiast"],
+    words: [
+      "System Analyst",
+      "Web Developer",
+      "Software Engineer",
+    ],
     loop: {},
     typeSpeed: 60,
     deleteSpeed: 30,
@@ -79,7 +83,7 @@ function Hero() {
               >
                 <div className="  sm:rounded-[36px] rounded-[28px]  -inset-1  absolute bg-gradient-to-br from-indigo-500  blur-md backdrop-blur-md sm:opacity-10 opacity-5 group-hover:opacity-70 group-hover:scale-105 transition duration-300"></div>
                 <div className=" card   sm:rounded-[36px] rounded-[28px] bg-gradient-to-b from-black/50 from-60% to-white border-[0.5px] border-slate-500/50 backdrop-filter backdrop-blur-5xl drop-shadow-3xl flex place-content-center "></div>
-                <p className="text-transparent bg-clip-text bg-gradient-to-r from-white to-slate-200/20 text-sm lg:text-lg">
+                <p className="text-white font-bold text-sm lg:text-lg">
                   Download CV
                 </p>
               </button>

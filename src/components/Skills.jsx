@@ -44,11 +44,7 @@ const Skills = () => {
             className="hover:bg-gradient-to-tr hover:from-indigo-600/20 font-normal  md:col-span-6 col-span-2 card content drop-shadow-md h-fit my-auto p-[28px]  rounded-[32px]    sm:mr-0 bg-gradient-to-b from-slate-100/10 to-black/20 border-[0.5px] border-white/20 backdrop-filter backdrop-blur-4xl "
           >
               <p className="text-transparent leading-relaxed bg-clip-text bg-gradient-to-br from-white to-white/50 lg:text-[18px] md:text-[16px] text-sm text-justify">
-                I enjoy transforming complex ideas into structured digital solutions
-                through <b>Back-End Development</b> and <b>Data Engineering</b>. With hands-on experience in building internal systems, optimizing SQL queries, 
-                and designing scalable architecture, I focus on both functionality and performance. I’m also passionate 
-                about analyzing data and creating clean technical documentation to support clear decision-making and 
-                collaboration across teams.
+                I enjoy building digital solutions that solve real business problems through <b>Full-Stack Web Development</b> and <b>Information Systems</b>. With hands-on experience in developing internal business applications, designing databases, and collaborating with users to analyze requirements, I focus on delivering reliable, user-centered, and maintainable systems. I'm passionate about continuously learning new technologies and creating solutions that improve business processes and operational efficiency.
               </p>
             </motion.div>
             <motion.div
@@ -90,7 +86,7 @@ const Skills = () => {
                     Jenderal Soedirman University
                   </p>
                   <p className="font-bold md:text-[18px] text-sm">
-                    S1 Informatics, class of 2022
+                    Bachelor's Degree in Informatics
                   </p>
                 </div>
               </div>
@@ -104,10 +100,7 @@ const Skills = () => {
               className=" hover:bg-gradient-to-tr hover:from-indigo-600/20 md:col-span-5 col-span-2 top card content drop-shadow-md h-fit p-[28px]  rounded-[32px]  mt-[0px]  sm:mr-0 bg-gradient-to-b from-slate-100/10 to-black/20 border-[0.5px] border-white/20 backdrop-filter backdrop-blur-4xl "
             >
               <p className="text-transparent leading-relaxed bg-clip-text bg-gradient-to-br from-white to-white/50 md:text-[18px] text-sm text-justify">
-                My experience coordinating labs, leading student organizations, and managing 
-                internal projects has shaped my skills in <b>project coordination</b>, <b>technical mentoring</b>, 
-                and <b>collaborative problem-solving</b>. I value teamwork and adaptability, 
-                and always aim to contribute to meaningful, user-focused digital products.
+                My experience as a <b>Full-Stack Developer Intern</b>, <b>IT Support Intern</b>, Laboratory Assistant Coordinator, and student organization leader has strengthened my skills in <b>system development</b>, <b>problem-solving</b>, <b>team collaboration</b>, and <b>leadership</b>. I enjoy working with cross-functional teams and continuously strive to build digital products that provide meaningful value to users and organizations.
               </p>
           </motion.div>
         </div>

@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 const Projects = () => {
   const [selectedFilter, setSelectedFilter] = useState(null); // State to hold a single selected filter
   const [filteredItems, setFilteredItems] = useState(PROJECTS);
+  const [showAll, setShowAll] = useState(false);
   const filters = ["Web Development", "Mobile Development", "Data Science & Machine Learning"];
 
   const handleFilterButtonClick = (selectedCategory) => {
@@ -29,10 +30,11 @@ const Projects = () => {
 
   const filterItems = () => {
     if (selectedFilter) {
-      const tempItems = PROJECTS.filter(
-        (project) => project.category === selectedFilter
+      setFilteredItems(
+        PROJECTS.filter(
+          (project) => project.category === selectedFilter
+        )
       );
-      setFilteredItems(tempItems);
     } else {
       setFilteredItems(PROJECTS);
     }
@@ -40,6 +42,12 @@ const Projects = () => {
   const newTab = (url) => {
     window.open(url);
   };
+  const displayedProjects =
+    selectedFilter
+      ? filteredItems
+      : showAll
+        ? filteredItems
+        : filteredItems.slice(0,6);
   return (
     <section id="projects">
       <div className="flex flex-col max-w-[1150px] mx-auto min-h-[100vh] sm:pt-[20px] pt-0">
@@ -69,7 +77,7 @@ const Projects = () => {
           </div>
         </motion.div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 max-w-[1350px] mx-auto mb-8 md:mb-12 md:mt-8 mt-6 ml-2 mr-2 md:gap-y-6  lg:gap-y-8 gap-y-6">
-          {filteredItems.map((project, index) => (
+          {displayedProjects.map((project, index) => (
             <motion.div
               key={`PROJECTS-${index}`}
               whileInView={{ opacity: 1, y: 0 }}
@@ -134,6 +142,18 @@ const Projects = () => {
             </motion.div>
           ))}
         </div>
+        {!selectedFilter && PROJECTS.length > 6 && (
+          <div className="flex justify-center mb-10">
+            <button
+              onClick={() => setShowAll(!showAll)}
+              className="px-6 py-3 rounded-xl border border-slate-100/30 bg-white/10 hover:bg-white/20 transition duration-300 text-white"
+            >
+              {showAll
+                ? "Show Less"
+                : `View All Projects (${PROJECTS.length})`}
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );

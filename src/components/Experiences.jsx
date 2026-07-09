@@ -115,7 +115,7 @@ function Experiences() {
           viewport={{ once: true }}
           className="md:text-3xl text-xl font-medium md:mt-16 mt-12 md:mb-10 flex justify-center text-transparent bg-clip-text tracking-wide bg-gradient-to-br from-white p-2  "
         >
-          Committee Experiences
+          Leadership & Committee Experience
         </motion.div>
         <div className="max-w-[1300px] m-auto flex flex-wrap relative">
           <VerticalTimeline>
