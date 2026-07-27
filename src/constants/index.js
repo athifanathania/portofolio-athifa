@@ -3,7 +3,7 @@ import canvalogo from "../assets/canvalogo.png";
 
 
 export const HERO_CONTENT = `
-Informatics graduate with hands-on experience in web development, information systems, and database management. Passionate about building reliable digital solutions that improve business processes.`;
+Informatics graduate with hands-on experience in system analysis, full-stack web development, and enterprise application development. Passionate about transforming business requirements into reliable, scalable, and user-centered digital solutions.`;
 
 export const sectionIds = [
   "home",
@@ -14,11 +14,17 @@ export const sectionIds = [
   "contact",
 ];
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `
+I am an Informatics graduate with hands-on experience in system analysis, full-stack web development, and enterprise application development. During my internship, I collaborated with stakeholders to gather business requirements, design database structures, develop web applications, perform software testing, and maintain operational systems across multiple business divisions.
+
+I enjoy translating business needs into efficient technical solutions while ensuring applications are reliable, maintainable, and user-centered. My experience with Laravel, React.js, PHP, JavaScript, MySQL, and Git has strengthened my understanding of the Software Development Life Cycle (SDLC), business process analysis, and collaborative software development.
+
+I am passionate about continuously learning new technologies and contributing to projects that improve business processes through well-designed information systems.`;
 
 export const SKILL = [
   { image: "https://cdn.worldvectorlogo.com/logos/codeigniter.svg", alt: "CodeIgniter" },
   { image: "https://skillicons.dev/icons?i=laravel", alt: "Laravel" },
+  { image: "https://skillicons.dev/icons?i=react", alt: "React.js" },
   { image: "https://skillicons.dev/icons?i=bootstrap", alt: "Bootstrap" },
   { image: "https://skillicons.dev/icons?i=html", alt: "HTML" },
   { image: "https://skillicons.dev/icons?i=css", alt: "CSS" },
@@ -27,10 +33,7 @@ export const SKILL = [
   { image: "https://skillicons.dev/icons?i=java", alt: "Java" },
   { image: "https://skillicons.dev/icons?i=cpp", alt: "C++" },
   { image: "https://skillicons.dev/icons?i=mysql", alt: "MySQL" },
-  {
-    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg",
-    alt: "SQL Server",
-  },
+  { image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg", alt: "SQL Server",},
 ];
 
 export const TOOLS = [
@@ -38,9 +41,13 @@ export const TOOLS = [
   { image: "https://skillicons.dev/icons?i=figma", alt: "Figma" },
   { image: "https://skillicons.dev/icons?i=git", alt: "Git" },
   { image: "https://skillicons.dev/icons?i=github", alt: "GitHub" },
-  { image: canvalogo, alt: "Canva" },
+  { image: "https://cdn.simpleicons.org/laragon", alt: "Laragon" },
   { image: "https://www.apachefriends.org/images/xampp-logo-ac950edf.svg", alt: "XAMPP" },
+  { image: "https://skillicons.dev/icons?i=postman", alt: "Postman" },
+  { image: "https://cdn.simpleicons.org/diagramsdotnet/F08705", alt: "Draw.io" },
+  { image: "https://cdn.simpleicons.org/lucid/282C33", alt: "Lucidchart" },
   { image: "https://img.icons8.com/?size=100&id=lOqoeP2Zy02f&format=png&color=000000", alt: "Google Colab" },
+  { image: canvalogo, alt: "Canva" },
 ];
 
 

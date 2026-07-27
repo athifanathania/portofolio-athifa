@@ -44,7 +44,7 @@ const Skills = () => {
             className="hover:bg-gradient-to-tr hover:from-indigo-600/20 font-normal  md:col-span-6 col-span-2 card content drop-shadow-md h-fit my-auto p-[28px]  rounded-[32px]    sm:mr-0 bg-gradient-to-b from-slate-100/10 to-black/20 border-[0.5px] border-white/20 backdrop-filter backdrop-blur-4xl "
           >
               <p className="text-transparent leading-relaxed bg-clip-text bg-gradient-to-br from-white to-white/50 lg:text-[18px] md:text-[16px] text-sm text-justify">
-                I enjoy building digital solutions that solve real business problems through <b>Full-Stack Web Development</b> and <b>Information Systems</b>. With hands-on experience in developing internal business applications, designing databases, and collaborating with users to analyze requirements, I focus on delivering reliable, user-centered, and maintainable systems. I'm passionate about continuously learning new technologies and creating solutions that improve business processes and operational efficiency.
+                I enjoy building reliable digital solutions through <b>System Analysis</b>, <b>Full-Stack Web Development</b>, and <b>Information Systems</b>. With hands-on experience in analyzing business requirements, designing databases, developing enterprise web applications, and collaborating with stakeholders, I focus on delivering scalable, user-centered, and maintainable systems that improve business processes and operational efficiency.
               </p>
             </motion.div>
             <motion.div
@@ -100,7 +100,7 @@ const Skills = () => {
               className=" hover:bg-gradient-to-tr hover:from-indigo-600/20 md:col-span-5 col-span-2 top card content drop-shadow-md h-fit p-[28px]  rounded-[32px]  mt-[0px]  sm:mr-0 bg-gradient-to-b from-slate-100/10 to-black/20 border-[0.5px] border-white/20 backdrop-filter backdrop-blur-4xl "
             >
               <p className="text-transparent leading-relaxed bg-clip-text bg-gradient-to-br from-white to-white/50 md:text-[18px] text-sm text-justify">
-                My experience as a <b>Full-Stack Developer Intern</b>, <b>IT Support Intern</b>, Laboratory Assistant Coordinator, and student organization leader has strengthened my skills in <b>system development</b>, <b>problem-solving</b>, <b>team collaboration</b>, and <b>leadership</b>. I enjoy working with cross-functional teams and continuously strive to build digital products that provide meaningful value to users and organizations.
+                My experience as a <b>System Analyst & Full-Stack Developer Intern</b>, <b>IT Support & Web Developer Intern</b>, Laboratory Assistant Coordinator, and student organization leader has strengthened my skills in <b>requirements analysis</b>, <b>software development</b>, <b>technical documentation</b>, <b>problem-solving</b>, and <b>cross-functional collaboration</b>. I enjoy translating business needs into effective technical solutions while continuously learning new technologies and delivering meaningful value to users and organizations.
               </p>
           </motion.div>
         </div>
