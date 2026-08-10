@@ -257,6 +257,16 @@ export const PROJECTS = [
 export const ORGANIZATION = [
   {
     year: "Mar 2025 - Dec 2025",
+    role: "Health Division Staff",
+    company: "Generasi Baru Indonesia (GenBI) Purwokerto - Bank Indonesia",
+    description: [
+      "Contributed to the implementation of health programs and activities for GenBI members and the community.",
+      "Prepared and supported health education and awareness activities."
+    ],
+    logo: "images/genbi.png",
+  },
+  {
+    year: "Mar 2025 - Dec 2025",
     role: "Student Resource Development Division Supervisor",
     company: "Organization Supervisory Board (DPO) HMIF - Universitas Jenderal Soedirman",
     description: [
