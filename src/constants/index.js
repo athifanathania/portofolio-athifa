@@ -3,7 +3,7 @@ import canvalogo from "../assets/canvalogo.png";
 
 
 export const HERO_CONTENT = `
-Informatics graduate with hands-on experience in system analysis, full-stack web development, and enterprise application development. Passionate about transforming business requirements into reliable, scalable, and user-centered digital solutions.`;
+Informatics graduate with hands-on experience in technical writing, system analysis, and full-stack web development. Passionate about translating complex system behaviors and business requirements into clear technical documentation and reliable digital solutions.`;
 
 export const sectionIds = [
   "home",
@@ -15,11 +15,11 @@ export const sectionIds = [
 ];
 
 export const ABOUT_TEXT = `
-I am an Informatics graduate with hands-on experience in system analysis, full-stack web development, and enterprise application development. During my internship, I collaborated with stakeholders to gather business requirements, design database structures, develop web applications, perform software testing, and maintain operational systems across multiple business divisions.
+I am an Informatics graduate with hands-on experience in technical writing, information systems analysis, and enterprise web application development. I specialize in authoring Software Requirement Specifications (SRS), system workflows, data mappings, and API documentation, as well as designing relational databases and developing operational web applications.
 
-I enjoy translating business needs into efficient technical solutions while ensuring applications are reliable, maintainable, and user-centered. My experience with Laravel, React.js, PHP, JavaScript, MySQL, and Git has strengthened my understanding of the Software Development Life Cycle (SDLC), business process analysis, and collaborative software development.
+I enjoy bridging the gap between business stakeholders and engineering teams by translating complex technical concepts into structured, easy-to-understand documentation and scalable system solutions. My background across Laravel, React.js, SQL, Postman, Draw.io, and Git gives me a strong foundation across the Software Development Life Cycle (SDLC).
 
-I am passionate about continuously learning new technologies and contributing to projects that improve business processes through well-designed information systems.`;
+I am passionate about continuous learning and delivering clear documentation and well-engineered systems that improve operational efficiency.`;
 
 export const SKILL = [
   { image: "https://cdn.worldvectorlogo.com/logos/codeigniter.svg", alt: "CodeIgniter" },
@@ -53,8 +53,21 @@ export const TOOLS = [
 
 export const WORK_EXPERIENCES = [
   {
+    year: "Aug 2026 - Present",
+    role: "Technical Writer Intern, System Analyst Team",
+    company: "PT AXA Mandiri Financial Services - Jakarta",
+    description: [
+      "Authored and maintained Software Requirement Specifications (SRS), handover documentation, data mappings, and data dictionaries for enterprise systems.",
+      "Designed system workflows, activity/sequence diagrams, and revised ERDs while writing SQL queries to validate database structures and system behavior.",
+      "Documented API endpoints, request/response payloads, and health-check CURLs in collaboration with developers and System Analysts."
+    ],
+    technologies: ["Technical Writing", "SRS", "SQL", "API Documentation", "UML", "Draw.io"],
+    logo: "images/axa.png", 
+  },
+
+  {
     year: "Aug 2025 - Jun 2026",
-    role: "Full-Stack Developer Intern",
+    role: "System Analyst & Full-Stack Developer Intern",
     company: "PT. Indomatsumoto Press & Dies Industries (Indomobil Group) - Bekasi",
     description: [
       "Developed and implemented five operational websites used by various company divisions to support internal business processes.",
